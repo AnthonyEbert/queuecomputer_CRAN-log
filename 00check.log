@@ -1,0 +1,20 @@
+* using log directory 'd:/RCompile/CRANincoming/R-devel/queuecomputer.Rcheck'
+* using R Under development (unstable) (2017-09-12 r73242)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'queuecomputer/DESCRIPTION' ... OK
+* this is package 'queuecomputer' version '0.8.2'
+* package encoding: UTF-8
+* checking CRAN incoming feasibility ... Note_to_CRAN_maintainers
+Maintainer: 'Anthony Ebert <anthonyebert+CRAN@gmail.com>'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'queuecomputer' can be installed ... ERROR
+Installation failed.
+See 'd:/RCompile/CRANincoming/R-devel/queuecomputer.Rcheck/00install.out' for details.
+* DONE
+Status: 1 ERROR

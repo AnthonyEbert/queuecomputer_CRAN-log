@@ -1,0 +1,108 @@
+* installing *source* package 'queuecomputer' ...
+** libs
+
+*** arch - i386
+d:/Compiler/gcc-4.9.3/mingw_32/bin/g++  -I"D:/RCompile/recent/R/include" -DNDEBUG  -I"d:/RCompile/CRANpkg/lib/3.5/Rcpp/include" -I"d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include"   -I"d:/Compiler/gcc-4.9.3/local330/include"     -pedantic -O2 -Wall  -mtune=core2 -c RcppExports.cpp -o RcppExports.o
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:392:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from RcppExports.cpp:4:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/arma_ostream_meat.hpp:72:7: warning: integer constant is too large for 'long' type [-Wlong-long]
+       ( cond_rel< (sizeof(eT) > 4) && (is_same_type<uword,eT>::yes || is_same_type<sword,eT>::yes) >::geq(val, eT(+10000000000)) )
+       ^
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:392:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from RcppExports.cpp:4:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/arma_ostream_meat.hpp:74:7: warning: integer constant is too large for 'long' type [-Wlong-long]
+       ( cond_rel< (sizeof(eT) > 4) &&  is_same_type<sword,eT>::yes                                 >::leq(val, eT(-10000000000)) )
+       ^
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:53:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from RcppExports.cpp:4:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/compiler_setup.hpp:474:96: note: #pragma message: WARNING: use of OpenMP disabled; this compiler doesn't support OpenMP 3.0+
+   #pragma message ("WARNING: use of OpenMP disabled; this compiler doesn't support OpenMP 3.0+")
+                                                                                                ^
+d:/Compiler/gcc-4.9.3/mingw_32/bin/gcc  -I"D:/RCompile/recent/R/include" -DNDEBUG  -I"d:/RCompile/CRANpkg/lib/3.5/Rcpp/include" -I"d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include"   -I"d:/Compiler/gcc-4.9.3/local330/include"     -pedantic -O3 -Wall  -std=gnu99 -mtune=core2 -c init.c -o init.o
+d:/Compiler/gcc-4.9.3/mingw_32/bin/g++  -I"D:/RCompile/recent/R/include" -DNDEBUG  -I"d:/RCompile/CRANpkg/lib/3.5/Rcpp/include" -I"d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include"   -I"d:/Compiler/gcc-4.9.3/local330/include"     -pedantic -O2 -Wall  -mtune=core2 -c loops.cpp -o loops.o
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:392:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from loops.cpp:2:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/arma_ostream_meat.hpp:72:7: warning: integer constant is too large for 'long' type [-Wlong-long]
+       ( cond_rel< (sizeof(eT) > 4) && (is_same_type<uword,eT>::yes || is_same_type<sword,eT>::yes) >::geq(val, eT(+10000000000)) )
+       ^
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:392:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from loops.cpp:2:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/arma_ostream_meat.hpp:74:7: warning: integer constant is too large for 'long' type [-Wlong-long]
+       ( cond_rel< (sizeof(eT) > 4) &&  is_same_type<sword,eT>::yes                                 >::leq(val, eT(-10000000000)) )
+       ^
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:53:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from loops.cpp:2:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/compiler_setup.hpp:474:96: note: #pragma message: WARNING: use of OpenMP disabled; this compiler doesn't support OpenMP 3.0+
+   #pragma message ("WARNING: use of OpenMP disabled; this compiler doesn't support OpenMP 3.0+")
+                                                                                                ^
+d:/Compiler/gcc-4.9.3/mingw_32/bin/g++ -shared -s -static-libgcc -o queuecomputer.dll tmp.def RcppExports.o init.o loops.o -Ld:/Compiler/gcc-4.9.3/local330/lib/i386 -Ld:/Compiler/gcc-4.9.3/local330/lib -LD:/RCompile/recent/R/bin/i386 -lR
+installing to d:/RCompile/CRANincoming/R-devel/lib/queuecomputer/libs/i386
+
+*** arch - x64
+d:/Compiler/gcc-4.9.3/mingw_64/bin/g++ -m64 -I"D:/RCompile/recent/R/include" -DNDEBUG  -I"d:/RCompile/CRANpkg/lib/3.5/Rcpp/include" -I"d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include"   -I"d:/Compiler/gcc-4.9.3/local330/include"     -pedantic -O2 -Wall  -mtune=core2 -c RcppExports.cpp -o RcppExports.o
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:392:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from RcppExports.cpp:4:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/arma_ostream_meat.hpp:72:7: warning: integer constant is too large for 'long' type [-Wlong-long]
+       ( cond_rel< (sizeof(eT) > 4) && (is_same_type<uword,eT>::yes || is_same_type<sword,eT>::yes) >::geq(val, eT(+10000000000)) )
+       ^
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:392:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from RcppExports.cpp:4:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/arma_ostream_meat.hpp:74:7: warning: integer constant is too large for 'long' type [-Wlong-long]
+       ( cond_rel< (sizeof(eT) > 4) &&  is_same_type<sword,eT>::yes                                 >::leq(val, eT(-10000000000)) )
+       ^
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:53:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from RcppExports.cpp:4:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/compiler_setup.hpp:474:96: note: #pragma message: WARNING: use of OpenMP disabled; this compiler doesn't support OpenMP 3.0+
+   #pragma message ("WARNING: use of OpenMP disabled; this compiler doesn't support OpenMP 3.0+")
+                                                                                                ^
+d:/Compiler/gcc-4.9.3/mingw_64/bin/gcc -m64 -I"D:/RCompile/recent/R/include" -DNDEBUG  -I"d:/RCompile/CRANpkg/lib/3.5/Rcpp/include" -I"d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include"   -I"d:/Compiler/gcc-4.9.3/local330/include"     -pedantic -O2 -Wall  -std=gnu99 -mtune=core2 -c init.c -o init.o
+d:/Compiler/gcc-4.9.3/mingw_64/bin/g++ -m64 -I"D:/RCompile/recent/R/include" -DNDEBUG  -I"d:/RCompile/CRANpkg/lib/3.5/Rcpp/include" -I"d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include"   -I"d:/Compiler/gcc-4.9.3/local330/include"     -pedantic -O2 -Wall  -mtune=core2 -c loops.cpp -o loops.o
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:392:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from loops.cpp:2:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/arma_ostream_meat.hpp:72:7: warning: integer constant is too large for 'long' type [-Wlong-long]
+       ( cond_rel< (sizeof(eT) > 4) && (is_same_type<uword,eT>::yes || is_same_type<sword,eT>::yes) >::geq(val, eT(+10000000000)) )
+       ^
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:392:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from loops.cpp:2:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/arma_ostream_meat.hpp:74:7: warning: integer constant is too large for 'long' type [-Wlong-long]
+       ( cond_rel< (sizeof(eT) > 4) &&  is_same_type<sword,eT>::yes                                 >::leq(val, eT(-10000000000)) )
+       ^
+In file included from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo:53:0,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadilloForward.h:46,
+                 from d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/RcppArmadillo.h:31,
+                 from loops.cpp:2:
+d:/RCompile/CRANpkg/lib/3.5/RcppArmadillo/include/armadillo_bits/compiler_setup.hpp:474:96: note: #pragma message: WARNING: use of OpenMP disabled; this compiler doesn't support OpenMP 3.0+
+   #pragma message ("WARNING: use of OpenMP disabled; this compiler doesn't support OpenMP 3.0+")
+                                                                                                ^
+d:/Compiler/gcc-4.9.3/mingw_64/bin/g++ -m64 -shared -s -static-libgcc -o queuecomputer.dll tmp.def RcppExports.o init.o loops.o -Ld:/Compiler/gcc-4.9.3/local330/lib/x64 -Ld:/Compiler/gcc-4.9.3/local330/lib -LD:/RCompile/recent/R/bin/x64 -lR
+installing to d:/RCompile/CRANincoming/R-devel/lib/queuecomputer/libs/x64
+** R
+** inst
+** preparing package for lazy loading
+Warning: S3 methods '[.fun_list', '[.grouped_df', 'all.equal.tbl_df', 'anti_join.data.frame', 'anti_join.tbl_df', 'arrange.data.frame', 'arrange.default', 'arrange.grouped_df', 'arrange.tbl_df', 'arrange_.data.frame', 'arrange_.tbl_df', 'as.data.frame.grouped_df', 'as.data.frame.rowwise_df', 'as.data.frame.tbl_cube', 'as.data.frame.tbl_df', 'as.table.tbl_cube', 'as.tbl.data.frame', 'as.tbl.tbl', 'as.tbl_cube.array', 'as.tbl_cube.data.frame', 'as.tbl_cube.matrix', 'as.tbl_cube.table', 'as_data_frame.grouped_df', 'as_data_frame.tbl_cube', 'auto_copy.tbl_cube', 'auto_copy.tbl_df', 'cbind.grouped_df', 'collapse.data.frame', 'collect.data.frame', 'common_by.NULL', 'common_by.character', 'common_by.default', 'common_by.list', 'compute.data.frame', 'copy_to.DBIConnection', 'copy_to.src_local', 'default_missing.data.frame', 'default_missing.default', 'dim.tbl_cube', 'distinct.data.frame', 'distinct.default', 'distinct.grouped_df', 'distinct.tbl_df', 'distinct_.data.frame', 'distinct_.grouped_df', 'dist [... truncated]
+Error in library.dynam(lib, package, package.lib) : 
+  DLL 'dplyr' not found: maybe not installed for this architecture?
+ERROR: lazy loading failed for package 'queuecomputer'
+* removing 'd:/RCompile/CRANincoming/R-devel/lib/queuecomputer'
